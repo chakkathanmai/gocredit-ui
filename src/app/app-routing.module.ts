@@ -14,7 +14,7 @@ import { LoginComponent } from './modules/auth/login/login.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about-us', component: AboutUsComponent },
-  { path: 'admin', component: UsersComponent },
+  { path: 'admin', component: UsersComponent},
   { path: 'user/:id', component: UserDetailsComponent },
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'login', component: LoginComponent },
@@ -28,11 +28,8 @@ const routes: Routes = [
       },
     ],
   },
-
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
-
-
 
 ];
 

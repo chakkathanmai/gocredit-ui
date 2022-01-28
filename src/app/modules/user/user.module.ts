@@ -6,6 +6,7 @@ import { AddCardComponent } from './credit-cards/add-card/add-card.component';
 import { UpdateCardComponent } from './credit-cards/update-card/update-card.component';
 import { DeleteCardComponent } from './credit-cards/delete-card/delete-card.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -19,7 +20,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     UserProfileComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     CreditCardsComponent
